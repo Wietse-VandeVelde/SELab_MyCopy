@@ -8,6 +8,40 @@ Beschrijf de opdracht in eigen woorden. Wat werd er van jullie verwacht? Wat was
 
 ## Antwoorden op de vragen in de opdracht
 
+### Vraag 1 - De Bash-prompt toont de map/directory waar we ons nu bevinden. Wat is de naam van de directory waar je in terecht komt als je een Terminal-venster opent?
+
+De home directory
+
+### Vraag 2 - In welke directory heb jij het script bewaard?
+
+/
+
+### Vraag 3 - In welke directory is het script bewaard in de screenshot onder stap 4?
+
+~/Documents/
+
+### Vraag 4 - (optioneel) Verander de kleuren van de uitvoer, bv. gele tekst op zwarte achtergrond. Tip: zoek op het internet naar "Bash ANSI color codes".
+
+GREENTEXT="\e[32m"
+BLACKBG="\e[40m"
+ENDCOLOR="\e[0m"
+echo -e "${GREENTEXT}${BLACKBG}Is this green?${ENDCOLOR}"
+
+### Vraag 5 - Vul de commandos aan
+
+| **Taak**                                                                | **Commando** |
+| ----------------------------------------------------------------------- | ------------ |
+| Een lijst tonen van de software die nu geïnstalleerd is via apt         |              |
+| Alle packages die nu geïnstalleerd zijn bijwerken tot de laatste versie |              |
+| Via de console een package opzoeken                                     |              |
+| Een geïnstalleerde applicatie verwijderen                               |              |
+
+### Vraag 6 - De shell prompt toont telkens de directory waarin je je bevindt. In welke directory kom je terecht als je een Terminal-venster opent?
+
+### Vraag 7 - In welke directory heb jij het script bewaard?
+
+### Vraag 8 - In welke directory is het script bewaard uit het screenshot onder stap 6?
+
 ### Vraag 1 - De PowerShell-prompt toont de map waar we ons nu bevinden. Wat is de naam van deze directory?
 
 system32
@@ -33,12 +67,12 @@ D:\Users\BertVV\Documents\HoGent\SELab\Installatie.ps1
 
 ### Vraag 5 - Wat doen de opties -e en --id voor winget install?
 
--e vind packages met exacte match
+-e vind packages met exacte match  
 --id filtert resultaten op id
 
 ### Vraag 6 - Voorkom dat een package geupdate word
 
-winget pin add --id Oracle.VirtualBox --version 7.0.20
+winget pin add --id Oracle.VirtualBox --version 7.0.20  
 (wildcards kunnen gebruikt worden om een range aan te geven bv: --version 7.0.\*)
 
 ## Evaluatiecriteria
