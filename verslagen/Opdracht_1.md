@@ -25,22 +25,28 @@ De home directory
 GREENTEXT="\e[32m"  
 BLACKBG="\e[40m"  
 ENDCOLOR="\e[0m"  
-echo -e "${GREENTEXT}${BLACKBG}Is this green?${ENDCOLOR}"
+echo -e "\${GREENTEXT} \${BLACKBG}Is this green? \${ENDCOLOR}"
 
 ### Vraag 5 - Vul de commandos aan
 
-| **Taak**                                                                | **Commando** |
-| ----------------------------------------------------------------------- | ------------ |
-| Een lijst tonen van de software die nu geïnstalleerd is via apt         |              |
-| Alle packages die nu geïnstalleerd zijn bijwerken tot de laatste versie |              |
-| Via de console een package opzoeken                                     |              |
-| Een geïnstalleerde applicatie verwijderen                               |              |
+| **Taak**                                                                | **Commando**                        |
+| ----------------------------------------------------------------------- | ----------------------------------- |
+| Een lijst tonen van de software die nu geïnstalleerd is via apt         | apt list --installed                |
+| Alle packages die nu geïnstalleerd zijn bijwerken tot de laatste versie | sudo apt update && sudo apt upgrade |
+| Via de console een package opzoeken                                     | apt search                          |
+| Een geïnstalleerde applicatie verwijderen                               | sudo apt remove                     |
 
 ### Vraag 6 - De shell prompt toont telkens de directory waarin je je bevindt. In welke directory kom je terecht als je een Terminal-venster opent?
 
+De home directory
+
 ### Vraag 7 - In welke directory heb jij het script bewaard?
 
+/
+
 ### Vraag 8 - In welke directory is het script bewaard uit het screenshot onder stap 6?
+
+~/Documents/SysEngLab
 
 ### Vraag 1 - De PowerShell-prompt toont de map waar we ons nu bevinden. Wat is de naam van deze directory?
 
