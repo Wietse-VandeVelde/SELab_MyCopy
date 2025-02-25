@@ -22,9 +22,9 @@ De home directory
 
 ### Vraag 4 - (optioneel) Verander de kleuren van de uitvoer, bv. gele tekst op zwarte achtergrond. Tip: zoek op het internet naar "Bash ANSI color codes".
 
-GREENTEXT="\e[32m"
-BLACKBG="\e[40m"
-ENDCOLOR="\e[0m"
+GREENTEXT="\e[32m"  
+BLACKBG="\e[40m"  
+ENDCOLOR="\e[0m"  
 echo -e "${GREENTEXT}${BLACKBG}Is this green?${ENDCOLOR}"
 
 ### Vraag 5 - Vul de commandos aan
