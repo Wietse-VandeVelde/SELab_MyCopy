@@ -86,9 +86,9 @@ winget pin add --id Oracle.VirtualBox --version 7.0.20
 - [x] Je hebt een package manager voor jouw besturingssysteem geïnstalleerd.
 - [x] Je hebt een script (PowerShell of Bash, afhankelijk van je besturingssysteem) geschreven en gebruikt om de opgesomde applicaties te installeren.
 - [x] Je toont inzicht in de werking van een package manager en kan deze vlot kan gebruiken om basistaken uit te voeren.
-- [ ] Je hebt een verslag gemaakt op basis van het template.
-- [ ] De cheat sheet is aangevuld met nuttige commando's die je wil onthouden.
-- [ ] Je kan een correct antwoord geven op de vragen die zijn aangeduid met een :question:.
+- [x] Je hebt een verslag gemaakt op basis van het template.
+- [x] De cheat sheet is aangevuld met nuttige commando's die je wil onthouden.
+- [x] Je kan een correct antwoord geven op de vragen die zijn aangeduid met een :question:.
 
 ## Problemen en oplossingen
 
@@ -111,12 +111,16 @@ Door het argument "--accept-source-agreements" door te geven aan het commando we
 
 Beschrijf hier hoe je elk evaluatiecriterium zal demonstreren. Geef ook aan welke bestanden, commando's, enz. je zal gebruiken tijdens de demo.
 
+1: Ik heb de gegeven link gebruikt om te installeren en het argument "--accept-source-agreements" om het "list" commando te doen werken gebruikt.
+
+2: Gemaakt bestand staat in opdrachten/GemaakteBestanden/Opdracht1
+
+3: Ik zal de package manager gebruiken om alle packages te updaten, te tonen en er specifiek een te zoeken.
+
 ## Reflecties
 
-Wat was moeilijk? Wat was eenvoudig? Wat hebben jullie geleerd van de opdracht? Wat zouden jullie anders doen als jullie het opnieuw moesten doen?
-
-Als jullie nog andere opmerkingen hebben over de opdracht hebben, voel je vrij om ze te delen.
+Alles was eenvoudig omdat ik al een beetje met package managers heb gewerkt.
 
 ## Bronnen
 
-Maak een lijst van alle bronnen die jullie hebben gebruikt tijdens het uitvoeren van de opdracht: boeken, handleidingen, HOWTO's, blog posts, enz.
+winget list probleem: https://github.com/microsoft/winget-cli/issues/1559
